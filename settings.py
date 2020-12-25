@@ -5,9 +5,9 @@ class Settings():
         """Initialize the game's static settings."""
         # Screen settings
         self.screen_width = 1200
-        self.screen_height = 780
-        self.bg_color = "black" #(230, 230, 230)
-        self.text_color = "yellowgreen" # (30, 30, 30)
+        self.screen_height = 780 
+        self.bg_color = [(230, 230, 230), "grey", "dark grey", "red", "purple", "cyan", ] # To update background color for each level
+        self.text_color = "black" # (30, 30, 30)
 
         # Ship settings
         self.ship_limit = 0 # To test AI

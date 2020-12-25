@@ -81,7 +81,7 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens,
 def update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button):
     """Update images on the screen and flip to the new screen"""
     # Redraw the screen during each pass through the loop.
-    screen.fill(ai_settings.bg_color)
+    screen.fill(ai_settings.bg_color[stats.level - 1])
     # Redraw all bullets behind ship and aliens.
     for bullet in bullets.sprites():
         bullet.draw_bullet()
@@ -248,4 +248,4 @@ def check_high_score(stats, sb):
         sb.prep_high_score()
 
 
-#TODO: pause button to stop the game
+#TODO: pause game by pressing "P"
