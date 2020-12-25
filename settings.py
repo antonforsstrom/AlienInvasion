@@ -6,7 +6,7 @@ class Settings():
         # Screen settings
         self.screen_width = 1200
         self.screen_height = 780 
-        self.bg_color = [(230, 230, 230), "grey", "dark grey", "red", "purple", "cyan", ] # To update background color for each level
+        self.bg_color = [(230, 230, 230), "orange", "coral", "yellow", "green", "blue", "purple", "pink", "lightblue", "white","grey", "brown", "gold"] # To update background color for each level
         self.text_color = "black" # (30, 30, 30)
 
         # Ship settings
